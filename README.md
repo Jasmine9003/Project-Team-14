@@ -37,7 +37,7 @@ Docker and docker compose are used to build and run the demo.
 - To check the version of docker and docker compose on the system, use the commands:
 
 $ docker --version  
-$ docker-compose –version
+$ docker-compose --version
 
 To run Edublocks, follow the below steps:
 
@@ -47,5 +47,4 @@ To run Edublocks, follow the below steps:
    then ./manage up or ./manage start
    
   If server needs to be started again,
-  ./manage down 
-  and then ./manage up
+  use the command ./manage down and then ./manage up
