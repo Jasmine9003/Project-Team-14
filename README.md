@@ -21,7 +21,7 @@ International students applying to a US university go through a long and painful
 1. School to obtain transcripts,
 2. ETS (for GRE/TOEFL tests), 
 3. WES (for evaluating transcripts), 
-4. Recommendation letters, etc 
+4. WES credential (for vetting transcripts), etc. 
 
 This process takes months and students have to produce their personal identifiable information (PII) data every time to each of authorities. Also, these authorities additionally request students to provide proof of identity to provide the service. The student's identity is replicated across the intermediaries centralized systems. This data is now not only vulnerable to potential information threats, but also potential misuse by the agencies themselves to further their own business interests. With a decentralized blockchain solution, there's no need for any of the authorities to collect and store personal and identity data. Students will own their data and will only provide access to minimum required data that each of the intermediary requires to provide their service. Once approved, the credential is then added to the students wallet. Since adding credentials would be transactions on the blockchain, they are verified and therefore can be trusted by all authorities. It also makes data more secured and transparent to all parties involved. The student can then present the verified credentials along with application form to the university thereby enabling them to make a faster decision.
 
@@ -42,9 +42,12 @@ $ docker-compose --version
 To run Edublocks, follow the below steps:
 
 - First, go to the nodejs folder of the project from the terminal.
-- Use the commands,
-   ./manage build 
-   then ./manage up or ./manage start
+- Run below commands in nodejs folder
+  use the commands,
+
+   ./manage build  - Builds the images
    
-  If server needs to be started again,
-  use the command ./manage down and then ./manage up
+   ./manage up - Runs the containers
+
+   ./manage down - Shuts down the containers
+
